@@ -1,0 +1,61 @@
+.nav {
+  z-index: 99;
+  background: none !important;
+}
+.logo img {
+  height: 50px;
+}
+
+.navbar {
+  background: darkred;
+}
+.nav-item.active {
+  border: 1px solid darkred;
+  font-weight: bold;
+}
+.showcase {
+  height: 100vh;
+  background-image: linear-gradient(rgba(139, 0, 0,0.7),rgba(139, 0, 0,0.7)), url('../images/bg.jpg');
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff ;
+}
+.nav-item > .nav-link {
+  color: #fff !important;
+}
+
+
+.startup img {
+  height: 100px;
+  width: 100px;
+}
+
+footer li {
+  margin-left: 15px;
+  list-style: none;
+  color: aqua;
+}
+
+.showcase p {
+  font-size: 33px;
+}
+
+/* Footer */
+footer {
+  background-color: darkred;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+@media screen and (max-width:425px) {
+  .startup {
+    flex-direction: column;
+  }
+}
